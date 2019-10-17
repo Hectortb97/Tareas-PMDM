@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Acertar Número</string>
+    <string name="nuevo_numero">Nuevo Numero</string>
+    <string name="texto_numero">Numero</string>
+    <string name="boton_comprobar">Comprobar</string>
+
+</resources>

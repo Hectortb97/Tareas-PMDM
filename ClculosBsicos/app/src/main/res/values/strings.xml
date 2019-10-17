@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cálculos Básicos</string>
+    <string name="resultado_inicial">0</string>
+    <string name="ayuda_entrada">Introduze un numero</string>
+    <string name="boton_borrar">Borrar</string>
+    <string name="boton_sumar">Sumar</string>
+    <string name="boton_restar">Restar</string>
+    <string name="boton_multiplicar">Multiplicar</string>
+    <string name="boton_dividir">Dividir</string>
+</resources>

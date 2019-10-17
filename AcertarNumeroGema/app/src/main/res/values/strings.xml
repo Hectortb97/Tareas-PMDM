@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Acertar Número 2</string>
+    <string name="solicitud_numero">¿Cuál es el número?</string>
+    <string name="ayuda_numero">Numero</string>
+    <string name="boton_generar_numero">Generar Numero</string>
+    <string name="boton_comprobar">Comprobar</string>
+    <string name="boton_salir">Salir</string>
+</resources>

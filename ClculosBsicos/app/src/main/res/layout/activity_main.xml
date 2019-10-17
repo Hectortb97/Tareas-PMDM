@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnborrar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="Borrar"
+        android:text="@string/boton_borrar" />
+
+    <TextView
+        android:id="@+id/tvresul"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#6493C5"
+        android:gravity="center"
+        android:text="@string/resultado_inicial"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etn1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/ayuda_entrada"
+        android:inputType="numberSigned|number|numberDecimal"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etn2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/ayuda_entrada"
+        android:inputType="numberSigned|number|numberDecimal"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnsumar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="Sumar"
+        android:text="@string/boton_sumar" />
+
+    <Button
+        android:id="@+id/btnrestar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="Restar"
+        android:text="@string/boton_restar" />
+
+    <Button
+        android:id="@+id/btnmultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="Multiplicar"
+        android:text="@string/boton_multiplicar" />
+
+    <Button
+        android:id="@+id/btndividir"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="Dividir"
+        android:text="@string/boton_dividir" />
+
+</LinearLayout>

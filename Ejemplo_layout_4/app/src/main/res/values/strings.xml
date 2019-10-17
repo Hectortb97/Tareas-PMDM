@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ejemplo_layout_4</string>
+    <string name="tV1">Call of Duty</string>
+    <string name="botonJugar">Jugar</string>
+    <string name="botonConfigurar">Configurar</string>
+    <string name="botonSalir">Salir</string>
+
+</resources>

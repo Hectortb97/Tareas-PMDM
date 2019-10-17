@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Proyecto_calculadora</string>
+    <string name="boton_C">C</string>
+    <string name="boton_CE">CE</string>
+    <string name="boton_borrar">Borrar</string>
+    <string name="boton_1">1</string>
+    <string name="boton_2">2</string>
+    <string name="boton_3">3</string>
+    <string name="boton_4">4</string>
+    <string name="boton_5">5</string>
+    <string name="boton_6">6</string>
+    <string name="boton_7">7</string>
+    <string name="boton_8">8</string>
+    <string name="boton_9">9</string>
+    <string name="boton_0">0</string>
+    <string name="boton_coma">,</string>
+    <string name="boton_dividir">/</string>
+    <string name="boton_multiplicar">*</string>
+    <string name="boton_restar">-</string>
+    <string name="boton_sumar">+</string>
+    <string name="boton_resultado">=</string>
+
+</resources>
