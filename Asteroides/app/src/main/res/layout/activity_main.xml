@@ -2,47 +2,48 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
+    android:layout_margin="20sp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tVAdivinanza"
-        android:layout_width="match_parent"
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
         android:gravity="center"
-        android:text="@string/tV_adivinanza"
-        android:textSize="18sp" />
-
-    <EditText
-        android:id="@+id/eTRespuesta"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="@string/eT_respuesta"
-        android:inputType="textPersonName" />
+        android:text="@string/asteroides"
+        android:textSize="36sp" />
 
     <Button
-        android:id="@+id/btnComprobar"
+        android:id="@+id/btnJugar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="comprobar"
-        android:text="@string/btn_comprobar" />
+        android:layout_margin="20sp"
+        android:text="@string/jugar" />
 
     <Button
-        android:id="@+id/btnAdivinanza"
+        android:id="@+id/btnConfigurar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="adivinanza"
-        android:text="@string/btn_adivinanza" />
+        android:layout_margin="20sp"
+        android:text="@string/configurar" />
+
+    <Button
+        android:id="@+id/btnAcercaDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="@string/acerca_de" />
 
     <Button
         android:id="@+id/btnSalir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="salir"
-        android:text="@string/btn_salir" />
+        android:layout_margin="20sp"
+        android:text="@string/salir" />
 </LinearLayout>
