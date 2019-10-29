@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App Cambiar Fondo</string>
+    <string name="cambiar_color_de_fondo">Cambiar color de fondo</string>
+    <string name="azul_cielo">Azul cielo</string>
+    <string name="verde_lima">Verde lima</string>
+    <string name="rosa_chicle">Rosa chicle</string>
+    <string name="azul_pavo_real">Azul pavo real</string>
+    <string name="verde_agua">Verde agua</string>
+    <string name="rosa_frambuesa">Rosa frambuesa</string>
+</resources>
